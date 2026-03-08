@@ -9,6 +9,6 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - runs: echo "Running tests..."
-      - runs: echo "${{ github.event_name }}"
-      - runs: echo "Tests completed successfully!"
+      - run: echo "Running tests..."
+      - run: echo "${{ github.event_name }}"
+      - run: echo "Tests completed successfully!"
